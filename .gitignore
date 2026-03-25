@@ -1,33 +1,50 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-### VS Code ###
+### Environments (Virtual Envs) ###
+.venv/
+venv/
+ENV/
+env/
+python/
+
+### FastAPI / FastAPI-specific ###
+.env
+.test.env
+*.log
+
+### Database (Se usi SQLite localmente) ###
+*.db
+*.sqlite
+*.sqlite3
+
+### IDE / Editor ###
 .vscode/
+.idea/
+*.swp
+*.swo
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
